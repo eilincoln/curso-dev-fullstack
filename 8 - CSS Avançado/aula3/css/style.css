@@ -1,0 +1,11 @@
+@import "variaveis.css";
+@import "comuns.css";
+
+img {
+  width: 900px;
+  filter: blur(5px);
+}
+
+.box {
+  max-width: 900px;
+}

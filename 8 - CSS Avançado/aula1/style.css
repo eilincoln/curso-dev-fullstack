@@ -1,0 +1,28 @@
+:root {
+  --cor-primaria: rgb(116, 24, 209);
+  --cor-secundaria: rgb(66, 28, 103);
+
+  --espaco: 16px;
+}
+
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h1 {
+  color: var(--cor-primaria);
+}
+
+h2 {
+  color: var(--cor-secundaria);
+}
+
+p {
+  color: var(--cor-primaria);
+  margin: var(--espaco);
+}
+
+button {
+  background-color: var(--cor-primaria);
+  color: #ffffff;
+}
