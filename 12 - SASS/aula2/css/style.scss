@@ -1,0 +1,40 @@
+@import "base";
+@import "variables";
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  .box {
+    &.active {
+      background-color: $color-secondary;
+    }
+
+    width: 30%;
+
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 10px;
+    h2 {
+      font-family: $font-primary;
+      font-size: 22px;
+      color: aquamarine;
+    }
+    p {
+      font-size: 18px;
+      &.hidden {
+        display: none;
+      }
+    }
+    a {
+      color: green;
+      &:hover {
+        color: yellow;
+        & + p.hidden {
+          display: block;
+        }
+      }
+    }
+  }
+}
